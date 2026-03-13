@@ -1,0 +1,20 @@
+a:link {
+	font-size: 13px;
+	color: #0033FF;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 13px;
+	color: #0066CC;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 13px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+a:active {
+	font-size: 13px;
+	color: #FF3300;
+	text-decoration: none;
+}

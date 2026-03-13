@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>捏麵人（範例教學）</title>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		page_05_over = newImage("images/page_05-over.jpg");
+		page_05_down = newImage("images/page_05-down.jpg");
+		page_07_over = newImage("images/page_07-over.jpg");
+		page_07_down = newImage("images/page_07-down.jpg");
+		page_08_over = newImage("images/page_08-over.jpg");
+		page_08_down = newImage("images/page_08-down.jpg");
+		page_09_over = newImage("images/page_09-over.jpg");
+		page_09_down = newImage("images/page_09-down.jpg");
+		page_10_over = newImage("images/page_10-over.jpg");
+		page_10_down = newImage("images/page_10-down.jpg");
+		page_11_over = newImage("images/page_11-over.jpg");
+		page_11_down = newImage("images/page_11-down.jpg");
+		page_12_over = newImage("images/page_12-over.jpg");
+		page_12_down = newImage("images/page_12-down.jpg");
+		page_13_over = newImage("images/page_13-over.jpg");
+		page_13_down = newImage("images/page_13-down.jpg");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+<style type="text/css">
+<!--
+-->
+</style>
+<link href="buttom.css" rel="stylesheet" type="text/css">
+<link href="table.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor=#FFFFFF background="bg.jpg" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0 onload="preloadImages();">
+<table width="772" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><a name="head"></a><img src="images/page_01.jpg" width=772 height=178></td>
+  </tr>
+  <tr>
+    <td width="186"><img src="images/page_02.jpg" width=186 height=28></td>
+    <td width="586"><div align="center"><a href="page3-1.html"><img src="tag/tag3-12.gif" width="120" height="28" border="0"></a><a href="page3-2.html"><img src="tag/tag3-22.gif" width="120" height="28" border="0"></a><img src="tag/tag3-31.gif" width="120" height="28"></div></td>
+  </tr>
+</table>
+<table width="772" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="186" valign="top"><table width="186" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="40" height="66" rowspan="9" valign="top"><img src="images/page_04.jpg" width=40 height=305></td>
+        <td width="146" height="34"><a href="page1-1.html"
+				onMouseOver="changeImages('page_05', 'images/page_05-over.jpg'); return true;"
+				onMouseOut="changeImages('page_05', 'images/page_05.jpg'); return true;"
+				onMouseDown="changeImages('page_05', 'images/page_05-down.jpg'); return true;"
+				onMouseUp="changeImages('page_05', 'images/page_05-over.jpg'); return true;"><img name="page_05" src="images/page_05.jpg" width=146 height=34 border=0></a></td>
+      </tr>
+      <tr>
+        <td width="146" height="34"><a href="page2-1.html"
+				onMouseOver="changeImages('page_07', 'images/page_07-over.jpg'); return true;"
+				onMouseOut="changeImages('page_07', 'images/page_07.jpg'); return true;"
+				onMouseDown="changeImages('page_07', 'images/page_07-down.jpg'); return true;"
+				onMouseUp="changeImages('page_07', 'images/page_07-over.jpg'); return true;"><img name="page_07" src="images/page_07.jpg" width=146 height=34 border=0></a></td>
+      </tr>
+      <tr>
+        <td width="146" height="34"><img name="page_08" src="images/page_08-down.jpg" width=146 height=34 border=0></td>
+      </tr>
+      <tr>
+        <td width="146" height="34"><a href="page4-1.html"
+				onMouseOver="changeImages('page_09', 'images/page_09-over.jpg'); return true;"
+				onMouseOut="changeImages('page_09', 'images/page_09.jpg'); return true;"
+				onMouseDown="changeImages('page_09', 'images/page_09-down.jpg'); return true;"
+				onMouseUp="changeImages('page_09', 'images/page_09-over.jpg'); return true;"><img name="page_09" src="images/page_09.jpg" width=146 height=34 border=0></a></td>
+      </tr>
+      <tr>
+        <td width="146" height="34"><a href="page5-1.html"
+				onMouseOver="changeImages('page_10', 'images/page_10-over.jpg'); return true;"
+				onMouseOut="changeImages('page_10', 'images/page_10.jpg'); return true;"
+				onMouseDown="changeImages('page_10', 'images/page_10-down.jpg'); return true;"
+				onMouseUp="changeImages('page_10', 'images/page_10-over.jpg'); return true;"><img name="page_10" src="images/page_10.jpg" width=146 height=34 border=0></a></td>
+      </tr>
+      <tr>
+        <td width="146" height="34"><a href="page6-1.html"
+				onMouseOver="changeImages('page_11', 'images/page_11-over.jpg'); return true;"
+				onMouseOut="changeImages('page_11', 'images/page_11.jpg'); return true;"
+				onMouseDown="changeImages('page_11', 'images/page_11-down.jpg'); return true;"
+				onMouseUp="changeImages('page_11', 'images/page_11-over.jpg'); return true;"><img name="page_11" src="images/page_11.jpg" width=146 height=34 border=0></a></td>
+      </tr>
+      <tr>
+        <td width="146" height="34"><a href="page7-1.html"
+				onMouseOver="changeImages('page_12', 'images/page_12-over.jpg'); return true;"
+				onMouseOut="changeImages('page_12', 'images/page_12.jpg'); return true;"
+				onMouseDown="changeImages('page_12', 'images/page_12-down.jpg'); return true;"
+				onMouseUp="changeImages('page_12', 'images/page_12-over.jpg'); return true;"><img name="page_12" src="images/page_12.jpg" width=146 height=34 border=0></a></td>
+      </tr>
+      <tr>
+        <td width="146" height="34"><a href="page8-1.html"
+				onMouseOver="changeImages('page_13', 'images/page_13-over.jpg'); return true;"
+				onMouseOut="changeImages('page_13', 'images/page_13.jpg'); return true;"
+				onMouseDown="changeImages('page_13', 'images/page_13-down.jpg'); return true;"
+				onMouseUp="changeImages('page_13', 'images/page_13-over.jpg'); return true;"><img name="page_13" src="images/page_13.jpg" width=146 height=36 border=0></a></td>
+      </tr>
+      <tr>
+        <td height="80"><a href="http://www.globalschoolhouse.org/cf/" target="_blank"><img src="cf2004logo.jpg" width="104" height="60" border="0"></a></td>
+      </tr>
+    </table></td>
+    <td width="586" valign="top"><table width="586" border="0" cellpadding="20" cellspacing="1" bgcolor="#666666">
+      <tr>
+        <td valign="top" bgcolor="#FFFFFF"><TABLE width=100% height=175 border=0 align=center cellPadding=0 bgcolor="#FFFFFF">
+          <TBODY>
+            <TR>
+              <TD vAlign=top>
+                <DIV align=center>
+                  <p><STRONG><font size="3">範例教學三：恐龍捏麵人線上教學</font></STRONG><STRONG><BR>
+                    <BR>
+                    <IMG height=90 src="page3-3.files/70.jpg" 
+      width=120> </STRONG></p>
+                  <hr color=#cc99ff>                  
+                  <p>&nbsp;</p>
+                  </DIV>
+              </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+          <TABLE width=90% border=0 align="center" cellPadding=0>
+            <TBODY>
+              <TR>
+                <TD width=40%><IMG 
+      height=170 src="page3-3.files/71.jpg" width=227 border=0></TD>
+                <TD align="center" valign="middle"><FONT color=#000000>→</FONT>&nbsp;</TD>
+                <TD width=40%><IMG 
+      height=170 src="page3-3.files/72.jpg" width=227 border=0></TD>
+              </TR>
+              <TR>
+                <TD width=40% vAlign=top>
+                  <UL>
+                    <LI><FONT color=#000000>搓1個一</FONT><FONT color=#000000>水滴形</FONT> </LI>
+                  </UL>
+                </TD>
+                <TD align="center" valign="middle"></TD>
+                <TD width="40%" vAlign=top>
+                  <UL>
+                    <LI>手指按壓前後轉動水滴形圓形的一邊 </LI>
+                  </UL>
+                </TD>
+              </TR>
+              <TR>
+                <TD vAlign=top colSpan=3>
+                  <div align="center">
+                    <center>
+                      <table border="0">
+                        <tr>
+                          <td width="100%" height="158"><IMG height=170 src="page3-3.files/73.jpg" width=227 
+      border=0></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="16"><div align="center"><FONT color=#000000>便完成頭部造型</FONT> </div></td>
+                        </tr>
+                      </table>
+                      <p>&nbsp;</p>
+                    </center>
+                  </div>
+                </TD>
+              </TR>
+              <TR>
+                <TD vAlign=top colSpan=3 height=20>
+                  <HR color=#cc99ff>
+                  <p>&nbsp;</p></TD>
+              </TR>
+              <TR>
+                <TD vAlign=top width=40%><IMG height=170 src="page3-3.files/74.jpg" width=227 
+      border=0> </TD>
+                <TD align="center" valign="middle"><FONT color=#000000>→</FONT></TD>
+                <TD vAlign=top width=40%><IMG height=170 src="page3-3.files/76.jpg" width=227 
+      border=0> </TD>
+              </TR>
+              <TR>
+                <TD vAlign=top width=40%><ul>
+                  <li> 使用工具挖出眼睛.並搓2小白圓塞入洞內.然後再黏黑眼珠 </li>
+                </ul>
+                </TD>
+                <TD align="center" valign="middle"></TD>
+                <TD vAlign=top width=40%><ul>
+                  <li> 搓4個橢圓形做成腳.依圖示捏出腳掌</li>
+                </ul>
+                </TD>
+              </TR>
+              <TR>
+                <TD vAlign=top colSpan=3>
+                  <div align="center">
+                    <center>
+                      <table>
+                        <tr>
+                          <td><IMG height=170 src="page3-3.files/77.jpg" width=227 
+      border=0> </td>
+                        </tr>
+                        <tr>
+                          <td><div align="center">搓小圓黏於腳掌上成腳指頭
+                          </div></td>
+                        </tr>
+                      </table>
+                      <p>&nbsp;</p>
+                    </center>
+                  </div>
+                  <HR color=#cc99ff>
+                  <p>&nbsp;</p></TD>
+              </TR>
+              <TR>
+                <TD vAlign=top width=40%><img height=170 src="page3-3.files/78.jpg" width=227 
+      border=0> </TD>
+                <TD align="center" valign="middle"><FONT color=#000000>→</FONT></TD>
+                <TD vAlign=top width=40%><img src="page3-3.files/79.jpg" width="227" height="170"> </TD>
+              </TR>
+              <TR>
+                <TD vAlign=top width=40%><ul>
+                  <li> 用不同顏色搓數個小水滴形要來製作劍龍上的骨板 </li>
+                </ul>
+                </TD>
+                <TD align="center" valign="middle"></TD>
+                <TD vAlign=top width=40%><ul>
+                  <li> 一個一個將水滴形成排的黏上去再壓扁 </li>
+                </ul>
+                </TD>
+              </TR>
+              <TR>
+                <TD vAlign=top colSpan=3>
+                  <div align="center">
+                    <center>
+                      <table border="0">
+                        <tr>
+                          <td><IMG height=170 src="page3-3.files/80.jpg" width=227 
+      border=0> </td>
+                        </tr>
+                        <tr>
+                          <td><div align="center">完成了
+                          </div></td>
+                        </tr>
+                      </table>
+                      <p>&nbsp;</p>
+                    </center>
+                  </div>
+                  <HR color=#cc99ff>
+                  <p>&nbsp;</p></TD>
+              </TR>
+              <TR>
+                <TD vAlign=top width=40%><IMG height=170 src="page3-3.files/81.jpg" width=227 
+      border=0> </TD>
+                <TD align="center" valign="middle"><FONT color=#000000>→</FONT></TD>
+                <TD vAlign=top width=40%><img height=170 src="page3-3.files/82.jpg" width=227 
+      border=0> </TD>
+              </TR>
+              <TR>
+                <TD vAlign=top colSpan=3>
+                  <div align="center">
+                    <p>噴上亮光漆更漂亮 </p>
+                    <p>&nbsp;                 </p>
+                  </div></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+		  <hr color=#cc99ff>
+          <strong>資料來源</strong><br>
+          ●
+          許家銘先生，名堂才藝坊 <a href="http://www.mingtong.com.tw/art" target="_blank">http://www.mingtong.com.tw/art</a></td>
+      </tr>
+    </table>
+	    <div align="right"><a href="#head"><br>
+      回到最上面</a></div>
+	</td>
+  </tr>
+</table>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <hr >
+    </td>
+    <td width="207" height="40">
+      <div align="center"><img src="school_name.gif" width="207" height="40"></div>
+    </td>
+    <td width="30">
+      <hr>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
